@@ -1,7 +1,7 @@
 body {
 margin: 0;
 height: 100vh;
-background: linear-gradient(150deg, #0f2027, #1c1c1c);
+background-color: #f6f7fb;
 font-family: "Playfair Display", serif;
 }
 
@@ -15,11 +15,12 @@ justify-content: center;
 }
 
 .wild img {
-position: absolute;
-width: 100%;
-height: 100%;
-object-fit: cover;
+width: auto;
+max-width: 80%;
+height: auto;
+object-fit: contain;
 filter: grayscale(0.1) contrast(1.2);
+display: block;
 }
 
 .mark {
